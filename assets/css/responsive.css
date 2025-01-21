@@ -1,4 +1,17 @@
 @media screen and (max-width: 575px) {
+    html{
+        font-size: 60%;
+    }
+    
+    .header .logo .logo-text {
+        display: none;  
+    }
+    
+    .header .navbar {
+        border-bottom: 0.5px solid var(--Orange);
+    }
+    
+    /* Humbarger Menu */
 
     .header .nav-menu,
     .header .btn1 {
@@ -8,14 +21,72 @@
     .header .hamburger {
         display: block;
         cursor: pointer;
-        position: fixed;
-        top: 35px;
+        position: relative;
+        top: 0px;
         right: 20px;
         z-index: 100;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
+
+    /* Hero Section  */
+    .header .hero {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0px;
+    }
+
+    .header .hero-content {
+        width:100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 576px) and ( max-width: 768px) {
+    html{
+        font-size: 80%;
+    }
+    
+    
+    .header .navbar {
+        border-bottom: 0.5px solid var(--Orange);
+    }
+    
+    /* Humbarger Menu */
+    .header .nav-menu,
+    .header .btn1 {
+        display: none;
+    }
+
+    .header .hamburger {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        top: 0px;
+        right: 20px;
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Hero Section  */
+    .header .hero {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0px;
+    }
+
+    .header .hero-content {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
 }

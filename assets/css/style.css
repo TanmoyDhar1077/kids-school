@@ -15,6 +15,12 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
 
 /*================
     Shared CSS 
@@ -52,6 +58,25 @@ ul {
     font-weight: 600;
 }
 
+.btn2 {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 12px;
+    background: var(--Black);
+    display: flex;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
 .color-1 {
     color: var(--Orange);
     font-size: 1.25rem;
@@ -76,11 +101,38 @@ ul {
     font-weight: 700;
 }
 
+.font-1 {
+    color: var(--Orange);
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.813rem;
+}
 
-/*=================
+.font-2 {
+    color: var(--Black);
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.813rem;
+}
+
+.font-3 {
+    color: var(--Sky-Blue);
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.813rem;
+}
+
+.font-4 {
+    color: var(--Black);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/*==================
     NavBar Section
-===================*/
-.header  {
+====================*/
+
+.header {
     background-color: var(--White);
 }
 
@@ -128,12 +180,18 @@ ul {
     background-color: var(--Black);
 }
 
+/* Hero Section */
 
+.header .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-
-
-
-
-/*=================
-    NavBar Section
-===================*/
+.header .hero-content {
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
