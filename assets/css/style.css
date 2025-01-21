@@ -6,6 +6,7 @@
     --color_1: rgba(5, 212, 223, 1);
     --color_2: rgba(93, 88, 239, 1);
     --color_3: rgba(149, 178, 38, 1);
+    --color_4: #808080;
 }
 
 
@@ -17,19 +18,16 @@
 
 html {
     font-size: 100%;
-    width: 100%;
     scroll-behavior: smooth;
 }
-
-
-/*================
-    Shared CSS 
-==================*/
 
 body {
     font-family: "Quicksand", serif;
 }
 
+/*================
+    Shared CSS 
+==================*/
 
 .container {
     max-width: 1280px;
@@ -128,9 +126,41 @@ ul {
     font-weight: 400;
 }
 
-/*==================
+.font-5 {
+    color: var(--Black);
+    font-size: 2.875rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.font-6 {
+    color: var(--Black);
+    font-size: 1.533rem;
+    font-weight: 700;
+}
+
+.font-7 {
+    color: var(--color_4);
+    font-size: 0.943rem;
+    font-weight: 500;
+    line-height: 28.296px;
+    text-align: center;
+}
+
+.arrow {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 15px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--Orange);
+}
+
+/* ==================
     NavBar Section
-====================*/
+==================== */
 
 .header {
     background-color: var(--White);
@@ -195,3 +225,98 @@ ul {
     align-items: flex-start;
     gap: 24px;
 }
+
+/* ====================
+    Curriculum Section
+======================== */
+
+.curriculum {
+    padding: 60px 0;
+    background: url(../img/bg.png) var(--White) no-repeat 50% 0% / cover;
+}   
+
+.curriculum .curriculum-item {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.curriculum .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.curriculum .card-1 {
+    display: flex;
+    width: 367.805px;
+    height: 476.784px;
+    padding: 52.819px 40.668px 53.762px 40.878px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32.069px;
+    border-radius: 18.864px;
+    border: 0.943px solid #DEF5FF;
+    background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.curriculum .card-1 a {
+    color: var(--Sky-Blue);
+    font-size: 0.943rem;
+    font-weight: 700;
+    line-height: 28.296px;
+}
+
+.curriculum .card-2 {
+    display: flex;
+    width: 367.805px;
+    height: 481.5px;
+    padding: 52.819px 40.668px 53.762px 40.878px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32.069px;
+    border-radius: 18.864px;
+    border: 0.943px solid #FFF4DC;
+    background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.curriculum .card-2 a {
+    color: var(--Orange);
+    font-size: 0.943rem;
+    font-weight: 700;
+    line-height: 28.296px;
+}
+
+.curriculum .card-3 {
+    display: flex;
+    width: 367.805px;
+    height: 476.784px;
+    padding: 52.819px 40.668px 53.762px 40.878px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32.069px;
+    border-radius: 18.864px;
+    border: 0.943px solid #F2E8FF;
+    background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+
+.curriculum .card-3 a {
+    color: var(--color_2);
+    font-size: 0.943rem;
+    font-weight: 700;
+    line-height: 28.296px;
+}
+
+.curriculum .left-right-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+}
+

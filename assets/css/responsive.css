@@ -40,9 +40,33 @@
     }
 
     .header .hero-content {
-        width:100%;
+        width: 357px;
         align-items: center;
         text-align: center;
+    }
+
+    /* Curriculum Section */
+    .curriculum {
+        padding: 40px 0;
+    }
+
+    .curriculum .curriculum-item {
+        gap: 20px;
+    }
+
+    .curriculum .cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .curriculum .card-1,
+    .curriculum .card-2,
+    .curriculum .card-3 {
+        width: 100%;
+    }
+
+    .curriculum .left-right-arrow {
+        display: none;
     }
 }
 
@@ -87,6 +111,22 @@
         width: 100%;
         align-items: center;
         text-align: center;
+    }
+
+    /* Curriculum Section */
+    .curriculum .cards {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .curriculum .card-1,
+    .curriculum .card-2,
+    .curriculum .card-3 {
+        width: 100%;
+    }
+
+    .curriculum .left-right-arrow {
+        display: none;
     }
 
 }
