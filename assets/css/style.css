@@ -148,6 +148,18 @@ ul {
     text-align: center;
 }
 
+.font-8 {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.font-9 {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 .arrow {
     display: flex;
     width: 60px;
@@ -234,7 +246,7 @@ ul {
 .curriculum {
     padding: 60px 0;
     background: url(../img/bg.png) var(--White) no-repeat 50% 0% / cover;
-}   
+}
 
 .curriculum .curriculum-item {
     display: flex;
@@ -280,7 +292,7 @@ ul {
     align-items: center;
     gap: 32.069px;
     border-radius: 18.864px;
-    border: 0.943px solid #FFF4DC;
+    border: 0.943px solid #ffedc5;
     background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0.00) 40%), #FFF;
     box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
 }
@@ -317,7 +329,80 @@ ul {
 .curriculum .left-right-arrow {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     gap: 10px;
 }
 
+/*  ==================
+        Marquee
+    =================== */
+
+.marquee {
+    background-color: var(--White);
+    box-shadow: 
+        inset 0px 11px 8px -10px #CCC,
+        inset 0px -11px 8px -10px #CCC; 
+    
+}
+    
+/* ====================
+         Footer 
+   ==================== */
+
+.footer {
+    padding: 123px 0px 174px 0px;
+    background-color: var(--Sky-Blue);
+}
+
+.footer .footer-item {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.footer .footer-item .footer-about {
+    display: flex;
+    flex-direction: column;
+    gap: 35.689px;
+}
+
+.footer .footer-item .footer-about .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .footer-item .footer-about .footer-logo h3 {
+    color: #FFF;
+    font-size: 2.634rem;
+    font-weight: 700;
+    line-height: 39.509px;
+}
+
+.footer .footer-item .footer-about p {
+    width: 399.02px;
+}
+
+.footer .footer-item .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footer .footer-item .footer-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.footer .footer-item .footer-social_media  {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footer .footer-item .footer-social_media ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
