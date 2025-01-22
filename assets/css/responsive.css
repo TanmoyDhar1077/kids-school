@@ -2,6 +2,14 @@
     html{
         font-size: 60%;
     }
+
+    .container {
+        margin: 0 15px;
+    }
+
+    /* ==================
+        NavBar Section
+     ==================== */
     
     .header .logo .logo-text {
         display: none;  
@@ -45,7 +53,9 @@
         text-align: center;
     }
 
-    /* Curriculum Section */
+    /* ====================
+        Curriculum Section
+    ======================== */
     .curriculum {
         padding: 40px 0;
     }
@@ -113,7 +123,13 @@
         text-align: center;
     }
 
-    /* Curriculum Section */
+    /* ====================
+        Curriculum Section
+    ======================== */
+    .curriculum {
+        padding: 40px 0;
+    }
+    
     .curriculum .cards {
         flex-direction: column;
         gap: 40px;
