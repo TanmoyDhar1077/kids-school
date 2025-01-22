@@ -353,7 +353,6 @@ ul {
     background-repeat: no-repeat;
     background-position: 50% 0%;
     padding: 60px 0px;
-
 }
 
 .story-section .story-item {
@@ -369,8 +368,6 @@ ul {
     grid-template-rows: auto;
     gap: 20px;
 }
-
-/* .story-section .story-item .item {} */
 
 .story-section .story-item .item.large {
     grid-column: span 2;
@@ -466,6 +463,9 @@ ul {
     width: 198.036px;
 }
 
+.story-section .story-item .item.small.d-none{
+    display: none;
+}
 
 /*  ==================
         Marquee
